@@ -1,0 +1,11 @@
+.achievements { background: var(--color-silver); padding-block: 4rem; }
+.achievements__inner { display: flex; align-items: center; justify-content: space-between; gap: 2rem; }
+.achievements__heading { width: 33.75rem; max-width: 100%; display: flex; flex-direction: column; gap: 0.5rem; }
+.achievements__heading h2 { max-width: 25.5rem; }
+.achievements__heading > p { color: var(--color-text-900); }
+.achievements__stats { display: grid; grid-template-columns: repeat(2, 14.5rem); gap: 2.5rem 1.875rem; }
+@media (max-width: 1000px) {
+  .achievements__inner { flex-direction: column; align-items: flex-start; }
+  .achievements__stats { grid-template-columns: repeat(2, minmax(0, 1fr)); width: 100%; }
+}
+@media (max-width: 560px) { .achievements__stats { grid-template-columns: 1fr; } }

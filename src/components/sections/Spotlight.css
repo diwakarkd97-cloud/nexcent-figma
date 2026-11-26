@@ -1,0 +1,10 @@
+.spotlight__inner { display: flex; align-items: center; gap: 3rem; }
+.spotlight__image { flex-shrink: 0; width: 27.625rem; max-width: 45%; height: auto; }
+.spotlight__copy { flex: 1; display: flex; flex-direction: column; align-items: flex-start; gap: 1rem; max-width: 37.5rem; }
+.spotlight__copy h2 { font-size: var(--fs-h2); line-height: var(--lh-h2); font-weight: 600; color: var(--color-dark-grey); }
+.spotlight__copy p { font-size: var(--fs-body-3); line-height: var(--lh-body-3); color: var(--color-grey); }
+.spotlight__copy .btn { margin-top: 1rem; }
+@media (max-width: 900px) {
+  .spotlight__inner { flex-direction: column; align-items: flex-start; }
+  .spotlight__image { max-width: 100%; align-self: center; }
+}

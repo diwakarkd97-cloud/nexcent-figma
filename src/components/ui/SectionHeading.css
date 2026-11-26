@@ -1,0 +1,6 @@
+.section-heading { display: flex; flex-direction: column; gap: 0.5rem; }
+.section-heading--center { align-items: center; text-align: center; }
+.section-heading--left { align-items: flex-start; text-align: left; }
+.section-heading h2 { font-size: var(--fs-h2); line-height: var(--lh-h2); font-weight: 600; color: var(--color-dark-grey); }
+.section-heading h2 span { color: var(--color-primary); }
+.section-heading p { font-size: var(--fs-body-2); line-height: var(--lh-body-2); color: var(--color-grey); }

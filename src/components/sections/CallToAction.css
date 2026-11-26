@@ -1,0 +1,2 @@
+.cta { display: flex; flex-direction: column; align-items: center; gap: 2rem; padding: 2rem var(--gutter); background: var(--color-silver); text-align: center; }
+.cta h2 { max-width: 55.4rem; font-size: var(--fs-h1); line-height: var(--lh-h1); font-weight: 600; color: var(--color-secondary); }

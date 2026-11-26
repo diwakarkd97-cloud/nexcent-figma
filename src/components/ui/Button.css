@@ -1,0 +1,10 @@
+.btn {
+  display: inline-flex; align-items: center; justify-content: center; gap: 0.5rem;
+  padding: 0.875rem 2rem; border: 0; border-radius: var(--radius-sm);
+  background: var(--color-primary); color: var(--color-white);
+  font: 500 var(--fs-body-2)/var(--lh-body-2) var(--font-sans);
+  cursor: pointer; white-space: nowrap; transition: background-color 0.2s;
+}
+.btn:hover { background: var(--color-shade-2); }
+.btn:active { background: var(--color-shade-3); }
+.btn:disabled, .btn[aria-disabled="true"] { background: var(--color-tint-4); cursor: not-allowed; }

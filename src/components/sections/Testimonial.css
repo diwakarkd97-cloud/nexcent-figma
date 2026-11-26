@@ -1,0 +1,16 @@
+.testimonial { background: var(--color-silver); padding-block: 2rem; }
+.testimonial__inner { display: flex; align-items: center; gap: 4.875rem; }
+.testimonial__photo { flex-shrink: 0; width: 20.375rem; height: 20.375rem; object-fit: cover; border-radius: var(--radius-md); box-shadow: var(--shadow-image); background: var(--color-black); }
+.testimonial__body { flex: 1; display: flex; flex-direction: column; gap: 2rem; }
+.testimonial blockquote { font-weight: 500; color: var(--color-grey); }
+.testimonial figcaption { display: flex; flex-direction: column; gap: 0.5rem; margin-top: -1rem; }
+.testimonial figcaption strong { font-size: var(--fs-h4); line-height: var(--lh-h4); font-weight: 600; color: var(--color-primary); }
+.testimonial figcaption span { color: var(--color-light-grey); }
+.testimonial__logos { display: flex; align-items: center; justify-content: space-between; gap: 1.5rem; flex-wrap: wrap; }
+.testimonial__logos ul { display: flex; gap: 2.5rem; flex-wrap: wrap; }
+.testimonial__logos a { display: inline-flex; align-items: center; gap: 0.5rem; padding: 0.5rem; font-size: var(--fs-h4); line-height: var(--lh-h4); font-weight: 600; color: var(--color-primary); }
+.testimonial__logos a:hover { color: var(--color-shade-2); }
+@media (max-width: 900px) {
+  .testimonial__inner { flex-direction: column; align-items: flex-start; gap: 2rem; }
+  .testimonial__photo { width: 100%; max-width: 20.375rem; }
+}

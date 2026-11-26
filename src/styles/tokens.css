@@ -1,0 +1,54 @@
+/* Tokens from the Figma "Style Guide" page. Figma canvas is 0.696x of the real 1440px design,
+   so every value below is the true (1440px) size. */
+:root {
+  /* Brand */
+  --color-primary: #4caf4f;
+  --color-secondary: #263238;
+  --color-info: #2194f3;
+  /* Shades (hover / pressed) */
+  --color-shade-2: #388e3b;
+  --color-shade-3: #237d31;
+  --color-shade-4: #1b5e1f;
+  /* Tints */
+  --color-tint-4: #c8e6c9;
+  --color-tint-5: #e8f5e9;
+  /* Neutral */
+  --color-black: #263238;
+  --color-dark-grey: #4d4d4d;
+  --color-grey: #717171;
+  --color-light-grey: #89939e;
+  --color-grey-blue: #abbed1;
+  --color-silver: #f5f7fa;
+  --color-white: #ffffff;
+  --color-text-900: #18191f;
+  --color-text-300: #d9dbe1;
+
+  /* Typography */
+  --font-sans: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --fs-h1: 4rem;       /* 64 / 76 */
+  --lh-h1: 4.75rem;
+  --fs-h2: 2.25rem;    /* 36 / 44 */
+  --lh-h2: 2.75rem;
+  --fs-h3: 1.75rem;    /* 28 / 36 */
+  --lh-h3: 2.25rem;
+  --fs-h4: 1.25rem;    /* 20 / 28 */
+  --lh-h4: 1.75rem;
+  --fs-body-1: 1.125rem; /* 18 / 28 */
+  --lh-body-1: 1.75rem;
+  --fs-body-2: 1rem;   /* 16 / 24 */
+  --lh-body-2: 1.5rem;
+  --fs-body-3: 0.875rem; /* 14 / 20 */
+  --lh-body-3: 1.25rem;
+
+  /* Effects */
+  --shadow-4: 0 4px 8px rgba(171, 190, 209, 0.4);
+  --shadow-card: 0 2px 2px rgba(171, 190, 209, 0.2);
+  --shadow-header: 0 4px 4px rgba(171, 190, 209, 0.4);
+  --shadow-image: 0 8px 16px rgba(171, 190, 209, 0.4);
+  --shadow-blog: 0 8px 8px rgba(171, 190, 209, 0.4);
+
+  /* Layout */
+  --gutter: 9rem;      /* 144px side padding at 1440 */
+  --radius-sm: 4px;
+  --radius-md: 8px;
+}

@@ -1,0 +1,14 @@
+.header { position: sticky; top: 0; z-index: 20; background: var(--color-white); box-shadow: var(--shadow-header); }
+.header__inner { display: flex; align-items: center; justify-content: space-between; gap: 3.75rem; padding-block: 1rem; }
+.header__nav { display: flex; align-items: center; gap: 2rem; }
+.header__nav ul { display: flex; gap: 1.5rem; }
+.header__nav ul a { display: block; padding: 0.5rem 0; font-weight: 500; color: var(--color-dark-grey); transition: color 0.2s; }
+.header__nav ul a:hover { color: var(--color-primary); }
+.header__toggle { display: none; width: 2.5rem; height: 2.5rem; padding: 0.5rem; background: none; border: 0; cursor: pointer; flex-direction: column; justify-content: center; gap: 5px; }
+.header__toggle span { height: 2px; background: var(--color-dark-grey); border-radius: 2px; }
+@media (max-width: 900px) {
+  .header__toggle { display: flex; }
+  .header__nav { position: absolute; top: 100%; left: 0; right: 0; flex-direction: column; align-items: flex-start; gap: 1rem; padding: 1rem var(--gutter) 1.5rem; background: var(--color-white); box-shadow: var(--shadow-header); display: none; }
+  .header__nav.is-open { display: flex; }
+  .header__nav ul { flex-direction: column; gap: 0.25rem; }
+}

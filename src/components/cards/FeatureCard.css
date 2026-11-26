@@ -1,0 +1,6 @@
+.feature-card { display: flex; flex-direction: column; align-items: center; text-align: center; gap: 0.5rem; width: 100%; max-width: 18.6875rem; padding: 1.5rem 2rem; background: var(--color-white); border-radius: var(--radius-md); box-shadow: var(--shadow-card); }
+.feature-card__icon { position: relative; display: grid; place-items: center; width: 3.125rem; height: 3.125rem; margin-bottom: 0.5rem; }
+.feature-card__icon::before { content: ""; position: absolute; inset: 0 0 0 0.9rem; transform: translate(0.25rem, 0.25rem); background: var(--color-tint-5); border-radius: 18px 5px 10px 5px; z-index: 0; }
+.feature-card__icon img { position: relative; z-index: 1; }
+.feature-card h3 { font-size: var(--fs-h3); line-height: var(--lh-h3); font-weight: 700; color: var(--color-dark-grey); }
+.feature-card p { font-size: var(--fs-body-3); line-height: var(--lh-body-3); color: var(--color-grey); }
